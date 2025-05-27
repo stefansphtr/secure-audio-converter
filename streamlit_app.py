@@ -211,9 +211,9 @@ def main():
         # File uploader
         uploaded_files = st.file_uploader(
             "Choose video files to convert",
-            type=['mp4', 'm4v', 'mov', 'avi', 'mkv'],
+            type=['mp4', 'm4v', 'mov', 'avi', 'mkv', 'mp3', 'wav', 'm4a', 'aac', 'flac'],
             accept_multiple_files=True,
-            help="Upload MP4, M4V, MOV, AVI, or MKV files (max 500MB each)"
+            help="Upload MP4, M4V, MOV, AVI, MKV, MP3, WAV, M4A, AAC, or FLAC files (max 500MB each)"
         )
         
         if uploaded_files:
@@ -239,7 +239,7 @@ def main():
         4. 📥 Download converted files
         
         **Supported formats:**
-        - **Input:** MP4, M4V, MOV, AVI, MKV
+        - **Input:** MP4, M4V, MOV, AVI, MKV, MP3, WAV, M4A, AAC, FLAC
         - **Output:** MP3, WAV
         
         **Tips:**
