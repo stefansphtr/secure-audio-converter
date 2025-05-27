@@ -118,6 +118,7 @@ tmp/
 
 # Logs
 *.log
+converter.log
 
 # OS generated files
 .DS_Store
