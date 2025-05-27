@@ -2,7 +2,7 @@
 
 *Made with 🔥 by Stefan | AI Enthusiast*
 
-Welcome to the **Secure Audio Converter** web application! This comprehensive guide will help you understand how to use the tool effectively, what the settings mean, and best practices for optimal results.
+Welcome to the **Secure Audio Converter** web application! This comprehensive guide will help you understand how to use the tool effectively for both **video-to-audio** and **audio-to-audio** conversions.
 
 ## 📖 Table of Contents
 
@@ -19,17 +19,38 @@ Welcome to the **Secure Audio Converter** web application! This comprehensive gu
 ## 🚀 Quick Start
 
 ### What This App Does
-Convert your video files (MP4, M4V, MOV, AVI, MKV) into high-quality audio files (MP3 or WAV) directly in your web browser - no software installation required!
+Convert your **video files** (MP4, M4V, MOV, AVI, MKV) AND **audio files** (MP3, WAV, M4A, AAC, FLAC) into high-quality MP3 or WAV audio files directly in your web browser - no software installation required!
+
+### New Audio-to-Audio Conversion Features ✨
+- **MP3 → WAV**: Convert compressed MP3 to uncompressed WAV for editing
+- **WAV → MP3**: Compress large WAV files to smaller MP3 format
+- **Format Standardization**: Convert M4A, AAC, FLAC to MP3/WAV
+- **Quality Enhancement**: Re-encode with different quality settings
 
 ### 30-Second Quick Start
-1. 📁 **Upload** your video files using the file uploader
-2. ⚙️ **Choose** your preferred format (MP3 or WAV) in the sidebar
+1. 📁 **Upload** your video OR audio files using the file uploader
+2. ⚙️ **Choose** your preferred output format (MP3 or WAV) in the sidebar
 3. 🎯 **Click** "Start Conversion" 
 4. 📥 **Download** your converted audio files
 
 ---
 
 ## 🔧 Understanding Audio Settings
+
+### Input Formats Now Supported
+
+#### 🎬 Video Files (Extract Audio)
+- **MP4, M4V, MOV**: Common video formats
+- **AVI, MKV**: Legacy and container formats
+- **Use case**: Extract audio tracks from video content
+
+#### 🎵 Audio Files (Convert Between Formats) ✨ NEW
+- **MP3**: Compressed audio (most common)
+- **WAV**: Uncompressed, high-quality audio
+- **M4A**: Apple's audio format (iTunes, etc.)
+- **AAC**: Advanced audio compression
+- **FLAC**: Lossless compression format
+- **Use case**: Convert between audio formats, change quality, or standardize formats
 
 ### Output Formats
 
@@ -102,7 +123,8 @@ Bitrate controls how much data is used per second of audio:
 ## 📋 Step-by-Step Usage Guide
 
 ### Step 1: Prepare Your Files
-- ✅ Ensure your video files are in supported formats: **MP4, M4V, MOV, AVI, MKV**
+- ✅ **Video files:** MP4, M4V, MOV, AVI, MKV
+- ✅ **Audio files:** MP3, WAV, M4A, AAC, FLAC ✨ NEW
 - ✅ Check file sizes are under **500MB each**
 - ✅ You can upload up to **50 files** at once
 
@@ -122,7 +144,7 @@ Bitrate controls how much data is used per second of audio:
 
 ### Step 3: Upload Files
 1. **Click** the file uploader area
-2. **Select** your video files (or drag & drop)
+2. **Select** your video or audio files (or drag & drop)
 3. **Wait** for upload completion
 4. **Review** the uploaded files list
 
@@ -160,17 +182,24 @@ Quality: Medium
 Bitrate: 128k or 192k  
 ```
 
-#### For Archiving/Professional:
+#### For Professional Audio Work:
 ```
 Format: WAV
 (Quality and bitrate not applicable)
 ```
 
-#### For Quick Sharing:
+#### For Format Standardization: ✨ NEW
 ```
-Format: MP3
-Quality: Medium
-Bitrate: 192k
+Input: Various audio formats (M4A, AAC, FLAC)
+Output: MP3 (192k, High quality)
+Use: Creating consistent audio library
+```
+
+#### For Audio Archiving: ✨ NEW
+```
+Input: MP3 files
+Output: WAV
+Use: Converting to uncompressed for editing
 ```
 
 ### 🚀 Performance Tips
@@ -193,7 +222,28 @@ Bitrate: 192k
 
 **Result:** Excellent audio quality, reasonable file size for music library
 
-### Example 2: Meeting Recording to Podcast
+### Example 2: Audio Format Standardization ✨ NEW
+**Scenario:** You have a mixed music library (MP3, M4A, FLAC) and want everything in high-quality MP3.
+
+**Settings:**
+- Input: Various audio formats
+- Format: MP3
+- Quality: High
+- Bitrate: 256k
+
+**Result:** Consistent, high-quality MP3 library
+
+### Example 3: Professional Audio Preparation ✨ NEW
+**Scenario:** You have MP3 files that need to be edited in professional software.
+
+**Settings:**
+- Input: MP3 files
+- Format: WAV
+- (Quality automatic - uncompressed)
+
+**Result:** Uncompressed WAV files ready for professional editing
+
+### Example 4: Meeting Recording to Podcast
 **Scenario:** You have a recorded Zoom meeting (MP4) to convert for podcast distribution.
 
 **Settings:**
@@ -203,25 +253,16 @@ Bitrate: 192k
 
 **Result:** Clear speech, small file size for easy distribution
 
-### Example 3: Multiple Videos for Archive
-**Scenario:** Converting 20 family videos to audio for a memory collection.
+### Example 5: FLAC to MP3 Conversion ✨ NEW
+**Scenario:** You have lossless FLAC files but need smaller MP3s for mobile device.
 
 **Settings:**
-- Format: MP3  
+- Input: FLAC files
+- Format: MP3
 - Quality: High
-- Bitrate: 192k
-- Use: Download All (ZIP)
+- Bitrate: 320k
 
-**Result:** Consistent quality, organized download in single ZIP file
-
-### Example 4: Professional Audio Extraction
-**Scenario:** Extracting audio from video for professional editing.
-
-**Settings:**
-- Format: WAV
-- (Quality/bitrate automatic)
-
-**Result:** Uncompressed audio ready for professional editing software
+**Result:** High-quality MP3s that maintain most of the original quality but with much smaller file sizes
 
 ---
 
@@ -230,7 +271,7 @@ Bitrate: 192k
 ### Upload Issues
 **Problem:** Files won't upload
 **Solutions:**
-- ✅ Check file format (MP4, M4V, MOV, AVI, MKV only)
+- ✅ Check file format (Video: MP4, M4V, MOV, AVI, MKV | Audio: MP3, WAV, M4A, AAC, FLAC)
 - ✅ Verify file size (under 500MB)
 - ✅ Check internet connection
 - ✅ Try refreshing the page
@@ -246,14 +287,15 @@ Bitrate: 192k
 **Solutions:**
 - ✅ Verify source file isn't corrupted
 - ✅ Try with a smaller file first
-- ✅ Check if file has audio track
+- ✅ Check if audio file has valid audio data
 - ✅ Contact administrator if FFmpeg error appears
 
-**Problem:** Poor audio quality
+**Problem:** Poor audio quality in converted file
 **Solutions:**
 - ✅ Use higher quality settings
-- ✅ Check source video quality
+- ✅ Check source file quality (can't improve beyond original)
 - ✅ Try WAV format for maximum quality
+- ✅ For audio-to-audio: ensure source isn't already heavily compressed
 
 ### Download Issues
 **Problem:** Download doesn't start
@@ -267,193 +309,6 @@ Bitrate: 192k
 
 ## 🔒 Security & Limitations
 
-### 🛡️ Comprehensive Security Features
-
-Your security and data protection are our top priorities. Here's how the **Secure Audio Converter** keeps you and your files safe:
-
-#### 🚪 **1. File Upload Protection**
-
-**What it does:** Only allows safe, approved file types
-**How it protects you:**
-- ✅ **File Type Validation:** Only accepts video files (MP4, M4V, MOV, AVI, MKV)
-- ✅ **Extension Checking:** Prevents malicious files disguised as videos
-- ✅ **Real File Verification:** Doesn't just trust the filename - actually checks the file content
-- ❌ **Blocks:** Executable files (.exe), scripts (.bat, .sh), or any suspicious file types
-
-**Why this matters:** Prevents malicious files from being uploaded to the server, protecting both you and other users.
-
-#### 📏 **2. File Size Limits**
-
-**What it does:** Enforces strict size limits on uploads
-**How it protects you:**
-- ✅ **Individual File Limit:** Maximum 500MB per file
-- ✅ **Batch Limit:** Maximum 50 files at once
-- ✅ **Server Protection:** Prevents server overload and crashes
-- ✅ **Fair Usage:** Ensures all users get good performance
-
-**Why this matters:** Large files can overwhelm servers, cause crashes, or be used for denial-of-service attacks.
-
-#### 🛣️ **3. Path Sanitization**
-
-**What it does:** Cleans and validates all file paths and names
-**How it protects you:**
-- ✅ **Directory Traversal Prevention:** Stops hackers from accessing other folders
-- ✅ **Safe Filenames:** Removes dangerous characters from file names
-- ✅ **Path Validation:** Ensures files go only where they should
-- ✅ **No Overwriting:** Automatically renames files to prevent accidental overwrites
-
-**Example of protection:**
-```
-❌ Dangerous: ../../../system/important_file.txt
-✅ Safe: video_file_1.mp3
-```
-
-**Why this matters:** Prevents attackers from accessing or modifying files they shouldn't see.
-
-#### 🔐 **4. File Integrity Verification**
-
-**What it does:** Creates a unique "fingerprint" for each uploaded file
-**How it protects you:**
-- ✅ **SHA256 Hashing:** Creates a unique identifier for each file
-- ✅ **Corruption Detection:** Ensures your file wasn't damaged during upload
-- ✅ **Audit Trail:** Logs the file fingerprint for security tracking
-- ✅ **Tampering Prevention:** Detects if files are modified during processing
-
-**In simple terms:** Like taking a photo of your file to prove it wasn't changed.
-
-**Why this matters:** Ensures the file you download is exactly what you intended to convert.
-
-#### ⏰ **5. Process Timeout Protection**
-
-**What it does:** Prevents operations from running forever
-**How it protects you:**
-- ✅ **5-Minute Limit:** Each conversion automatically stops after 5 minutes
-- ✅ **Resource Protection:** Prevents runaway processes from consuming server resources
-- ✅ **Hang Prevention:** Stops frozen or stuck conversions
-- ✅ **Fair Resource Sharing:** Ensures other users aren't blocked by long operations
-
-**What you see:** If a conversion takes too long, you'll get a clear timeout message.
-
-**Why this matters:** Prevents one problematic file from affecting the entire system.
-
-#### 🗂️ **6. Temporary File Handling**
-
-**What it does:** Securely manages all files during processing
-**How it protects you:**
-- ✅ **Temporary Storage Only:** Files are never permanently stored
-- ✅ **Automatic Cleanup:** All files deleted immediately after processing
-- ✅ **Isolated Processing:** Each conversion uses its own secure folder
-- ✅ **No File Persistence:** Nothing remains on the server after you download
-
-**Timeline:**
-1. Upload → Temporary secure folder
-2. Convert → Same secure folder
-3. Download → File prepared for you
-4. Complete → **Everything deleted automatically**
-
-**Why this matters:** Your files never accumulate on the server, protecting your privacy.
-
-#### 🚨 **7. Input Validation & Sanitization**
-
-**What it does:** Checks everything before processing
-**How it protects you:**
-- ✅ **Parameter Validation:** All settings are checked for safety
-- ✅ **Command Injection Prevention:** Stops malicious commands from being executed
-- ✅ **Safe Defaults:** Uses secure settings when none are specified
-- ✅ **Error Handling:** Graceful failure with clear error messages
-
-**What gets validated:**
-- File names and paths
-- Output formats (only MP3/WAV allowed)
-- Quality settings
-- Bitrate values
-- All user inputs
-
-#### 📋 **8. Comprehensive Logging**
-
-**What it does:** Records all activities for security monitoring
-**How it protects you:**
-- ✅ **Activity Tracking:** All conversions are logged
-- ✅ **Error Recording:** Failed attempts are documented
-- ✅ **Security Events:** Suspicious activity is flagged
-- ✅ **Audit Trail:** Complete record for security analysis
-
-**What's logged:**
-- File upload events
-- Conversion attempts
-- Security violations
-- Error conditions
-- Processing times
-
-**Privacy note:** Logs contain technical information, not your file contents.
-
-#### 🔒 **9. No Data Collection**
-
-**What it does:** Protects your privacy completely
-**How it protects you:**
-- ✅ **No File Storage:** Your files are never saved permanently
-- ✅ **No User Tracking:** We don't track who you are
-- ✅ **No Content Analysis:** We don't examine your file contents
-- ✅ **No Metadata Collection:** No information about your files is kept
-
-**Privacy guarantee:** We only process your files and immediately delete them.
-
-#### 🏰 **10. Server-Side Security**
-
-**What it does:** Protects the conversion process itself
-**How it protects you:**
-- ✅ **Isolated Processing:** Each conversion runs in its own secure environment
-- ✅ **Resource Limits:** Memory and CPU usage are controlled
-- ✅ **Safe Commands:** Only approved FFmpeg operations are allowed
-- ✅ **Error Containment:** Problems with one conversion don't affect others
-
-### 🚨 **What This Means for You**
-
-#### ✅ **You're Protected From:**
-- Malicious file uploads
-- Data theft or snooping
-- File corruption
-- Server crashes
-- Privacy violations
-- Unauthorized access to your files
-
-#### ✅ **You Can Trust That:**
-- Your files are processed securely
-- Nothing is stored permanently
-- Only you can download your converted files
-- The system can't be used to attack others
-- Your privacy is completely protected
-
-#### ✅ **Red Flags We Stop:**
-- Files over 500MB (potential abuse)
-- Non-video file uploads (security risk)
-- Suspicious file names (potential attacks)
-- Too many files at once (resource abuse)
-- Processes running too long (system protection)
-
-### 📊 **Security in Action - Examples**
-
-#### Example 1: Suspicious Upload Attempt
-```
-❌ User tries to upload: "virus.exe" renamed to "video.mp4"
-✅ System response: "Invalid file type detected - upload blocked"
-✅ Result: Malicious file never enters the system
-```
-
-#### Example 2: Path Traversal Attack
-```
-❌ Attacker tries: "../../../etc/passwd" as filename
-✅ System response: Path sanitized to "safe_filename.mp3"
-✅ Result: No system files can be accessed
-```
-
-#### Example 3: Large File Upload
-```
-❌ User uploads: 2GB video file
-✅ System response: "File too large - 500MB maximum"
-✅ Result: Server resources protected from overload
-```
-
 ### Current Limitations
 
 **These limits exist for security and performance:**
@@ -462,6 +317,9 @@ Your security and data protection are our top priorities. Here's how the **Secur
 - **Processing time:** 5-minute timeout per file
 - **Concurrent users:** Performance may vary with server load
 - **Internet required:** No offline functionality
+- **Supported formats:** 
+  - **Input:** MP4, M4V, MOV, AVI, MKV, MP3, WAV, M4A, AAC, FLAC
+  - **Output:** MP3, WAV only
 
 ### Privacy Notes
 
@@ -481,17 +339,11 @@ Your security and data protection are our top priorities. Here's how the **Secur
 
 ### Quick Checklist
 Before contacting support, please verify:
-- [ ] File format is supported (MP4, M4V, MOV, AVI, MKV)
+- [ ] File format is supported (Video: MP4, M4V, MOV, AVI, MKV | Audio: MP3, WAV, M4A, AAC, FLAC)
 - [ ] File size is under 500MB
 - [ ] Internet connection is stable
 - [ ] Browser allows downloads/pop-ups
 - [ ] You've tried refreshing the page
-
-### Contact Information
-For technical issues or questions:
-1. 📧 Check with your system administrator
-2. 🔍 Review the troubleshooting section above
-3. 📝 Include specific error messages when reporting issues
 
 ---
 
@@ -499,27 +351,27 @@ For technical issues or questions:
 
 ### 🌟 Pro Tips
 1. **Test first:** Try one small file before batch processing
-2. **Name clearly:** Use descriptive filenames for easy organization  
+2. **Format awareness:** Remember that converting MP3→WAV won't improve quality beyond the original MP3
 3. **Quality vs Size:** Choose settings based on your primary use case
 4. **Batch smartly:** Group similar content for consistent settings
 5. **Download immediately:** Don't wait too long to download converted files
 
 ### 🎯 Common Workflows
 
-**Quick Conversion:**
-Upload → Keep defaults → Convert → Download
+**Video to Audio:**
+Upload video → Choose MP3/WAV → Convert → Download
 
-**High Quality Music:**
-Upload → MP3/High/320k → Convert → Download
+**Audio Format Conversion:** ✨ NEW
+Upload audio → Choose target format → Convert → Download
 
-**Podcast Production:**
-Upload → MP3/Medium/128k → Convert → Download ZIP
+**Audio Quality Change:** ✨ NEW
+Upload MP3 → WAV (for editing) or MP3 (different quality) → Convert → Download
 
-**Professional Archive:**
-Upload → WAV → Convert → Download
+**Library Standardization:** ✨ NEW
+Upload mixed formats → MP3/High/256k → Convert → Download ZIP
 
 ---
 
-*This guide covers all aspects of using the Secure Audio Converter. For additional questions or advanced use cases, please consult your system administrator.*
+*This guide covers all aspects of using the Secure Audio Converter for both video-to-audio and audio-to-audio conversions. For additional questions or advanced use cases, please consult your system administrator.*
 
 **Made with 🔥 by Stefan | AI Enthusiast**
