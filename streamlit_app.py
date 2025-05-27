@@ -48,8 +48,24 @@ def get_converter():
     try:
         return SecureAudioConverter()
     except Exception as e:
-        st.error(f"Failed to initialize converter: {e}")
-        st.info("Please ensure FFmpeg is installed on the server.")
+        error_msg = str(e)
+        if "FFmpeg not found" in error_msg:
+            st.error("⚠️ **FFmpeg not available on this server**")
+            st.info("""
+            **This is likely a deployment issue. Please:**
+            
+            1. **For Streamlit Cloud:** Ensure `packages.txt` contains `ffmpeg`
+            2. **For other platforms:** Install FFmpeg system-wide
+            3. **Local development:** Install FFmpeg from https://ffmpeg.org/
+            
+            **If you're the administrator:**
+            - The `packages.txt` file should install FFmpeg automatically
+            - Try redeploying the application
+            - Check deployment logs for installation errors
+            """)
+        else:
+            st.error(f"Failed to initialize converter: {e}")
+        
         return None
 
 def create_download_link(file_path, filename):
@@ -142,16 +158,49 @@ def main():
     - File integrity checks
     - Process timeout protection
     """)
-    
-    # Initialize converter
+      # Initialize converter
     converter = get_converter()
     
     if not converter:
-        st.error("⚠️ Audio converter not available. Please contact administrator.")
+        st.error("⚠️ **Audio Converter Not Available**")
+        st.markdown("""
+        ### 🔧 **For Administrators:**
+        
+        This application requires **FFmpeg** to be installed on the server.
+        
+        **Streamlit Cloud Setup:**
+        1. Ensure `packages.txt` file exists in repository root
+        2. File should contain: `ffmpeg`
+        3. Redeploy the application
+        
+        **Local Setup:**
+        ```bash
+        # Windows (Chocolatey)
+        choco install ffmpeg
+        
+        # Windows (winget)  
+        winget install FFmpeg.FFmpeg
+        
+        # Linux (Ubuntu/Debian)
+        sudo apt update && sudo apt install ffmpeg
+        
+        # macOS (Homebrew)
+        brew install ffmpeg
+        ```
+        
+        ### 📞 **For Users:**
+        Please contact your system administrator to resolve this issue.
+        """)
         st.stop()
     
-    # Show FFmpeg status
-    st.sidebar.success(f"✅ FFmpeg found: {converter.ffmpeg_path}")
+    # Show FFmpeg status in sidebar
+    with st.sidebar:
+        st.success(f"✅ FFmpeg Ready")
+        if hasattr(converter, 'ffmpeg_path'):
+            st.text(f"Path: {converter.ffmpeg_path}")
+    
+    # Show FFmpeg status (remove old line)
+    # st.sidebar.success(f"✅ FFmpeg found: {converter.ffmpeg_path}")
     
     # Main content area
     col1, col2 = st.columns([2, 1])

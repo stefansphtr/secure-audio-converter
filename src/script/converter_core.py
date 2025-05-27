@@ -27,10 +27,29 @@ class SecureAudioConverter:
         self.ffmpeg_path = self._find_ffmpeg()
         if not self.ffmpeg_path:
             raise RuntimeError("FFmpeg not found. Please install FFmpeg and ensure it's in PATH.")
-    
+        
     def _find_ffmpeg(self) -> Optional[str]:
         """Find ffmpeg executable in system PATH."""
-        return shutil.which('ffmpeg')
+        # Try standard system PATH first
+        ffmpeg_path = shutil.which('ffmpeg')
+        
+        if ffmpeg_path:
+            return ffmpeg_path
+        
+        # Try common installation paths (useful for some environments)
+        common_paths = [
+            '/usr/bin/ffmpeg',
+            '/usr/local/bin/ffmpeg',
+            '/opt/conda/bin/ffmpeg',
+            'C:\\ffmpeg\\bin\\ffmpeg.exe',
+            'C:\\Program Files\\ffmpeg\\bin\\ffmpeg.exe'
+        ]
+        
+        for path in common_paths:
+            if os.path.exists(path):
+                return path
+        
+        return None
     
     def _validate_file_path(self, file_path: str) -> Path:
         """Validate and sanitize file path."""
