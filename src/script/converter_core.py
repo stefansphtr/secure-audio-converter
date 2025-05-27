@@ -16,7 +16,7 @@ class SecureAudioConverter:
     """Secure audio converter with input validation and safety checks."""
     
     # Allowed file extensions for security
-    ALLOWED_INPUT_EXTENSIONS = {'.mp4', '.m4v', '.mov', '.avi', '.mkv'}
+    ALLOWED_INPUT_EXTENSIONS = {'.mp4', '.m4v', '.mov', '.avi', '.mkv', '.mp3', '.wav', '.m4a', '.aac', '.flac'}
     ALLOWED_OUTPUT_EXTENSIONS = {'.mp3', '.wav'}
     
     # Maximum file size (500MB)
