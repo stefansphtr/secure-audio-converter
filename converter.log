@@ -1,0 +1,93 @@
+2025-05-27 16:10:50,473 - INFO - Starting Secure Audio Converter v1.0.0
+2025-05-27 16:10:50,473 - INFO - Launching GUI interface
+2025-05-27 16:11:11,639 - INFO - Processing file 1/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_1.mp4
+2025-05-27 16:11:11,639 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_1.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_1.mp3
+2025-05-27 16:11:11,651 - INFO - Input file hash: 27d9920f725a0c604ede2bb7915f1c92889e8b2635a80930af6d53b3f3ed8497
+2025-05-27 16:11:11,651 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_1.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_1.mp3
+2025-05-27 16:11:12,202 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_1.mp3
+2025-05-27 16:11:12,202 - INFO - Output file size: 1.37MB
+2025-05-27 16:11:12,202 - INFO - Processing file 2/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_2.mp4
+2025-05-27 16:11:12,202 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_2.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_2.mp3
+2025-05-27 16:11:12,209 - INFO - Input file hash: 8ec257829acb1381e95621ecad7414fca34f3cd2dd833e13f7c27270ce833a34
+2025-05-27 16:11:12,210 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_2.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_2.mp3
+2025-05-27 16:11:12,684 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_2.mp3
+2025-05-27 16:11:12,684 - INFO - Output file size: 1.18MB
+2025-05-27 16:11:12,684 - INFO - Processing file 3/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_3.mp4
+2025-05-27 16:11:12,684 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_3.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_3.mp3
+2025-05-27 16:11:12,684 - INFO - Input file hash: 1a4d4a1c320d50cdb2d60a411ef3a9b7a2986d85f63cf4cbff26c8b4323067e7
+2025-05-27 16:11:12,684 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_3.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_3.mp3
+2025-05-27 16:11:13,065 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_3.mp3
+2025-05-27 16:11:13,066 - INFO - Output file size: 0.88MB
+2025-05-27 16:11:13,066 - INFO - Processing file 4/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_4.mp4
+2025-05-27 16:11:13,066 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_4.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_4.mp3
+2025-05-27 16:11:13,071 - INFO - Input file hash: bcb2479554dee3430db0b26b6e608baa939ee931712293b3682656fd904e38f0
+2025-05-27 16:11:13,071 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_4.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_4.mp3
+2025-05-27 16:11:13,471 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_4.mp3
+2025-05-27 16:11:13,471 - INFO - Output file size: 0.97MB
+2025-05-27 16:11:13,471 - INFO - Processing file 5/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_5.mp4
+2025-05-27 16:11:13,471 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_5.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_5.mp3
+2025-05-27 16:11:13,476 - INFO - Input file hash: 0b89244cf31adc16344bf4df671f4337d2b6b4efd51c694fa0aec4c010bdebc1
+2025-05-27 16:11:13,476 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_5.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_5.mp3
+2025-05-27 16:11:13,858 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_5.mp3
+2025-05-27 16:11:13,858 - INFO - Output file size: 0.87MB
+2025-05-27 16:11:13,858 - INFO - Processing file 6/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_6.mp4
+2025-05-27 16:11:13,861 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_6.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_6.mp3
+2025-05-27 16:11:13,861 - INFO - Input file hash: b6b943f049ee064dcd7d3c646832a2a79b0d8f66680d2481866f3eafaefec9d5
+2025-05-27 16:11:13,861 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_6.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_6.mp3
+2025-05-27 16:11:14,207 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_6.mp3
+2025-05-27 16:11:14,207 - INFO - Output file size: 0.75MB
+2025-05-27 16:11:14,207 - INFO - Processing file 7/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_7.mp4
+2025-05-27 16:11:14,211 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_7.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_7.mp3
+2025-05-27 16:11:14,231 - INFO - Input file hash: a7d6ba2c456cc0f67eb8ab4ded870082d9243ae807da2147f863e3056f63a01d
+2025-05-27 16:11:14,231 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_7.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_7.mp3
+2025-05-27 16:11:14,623 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_7.mp3
+2025-05-27 16:11:14,626 - INFO - Output file size: 0.93MB
+2025-05-27 16:11:14,626 - INFO - Processing file 8/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_8.mp4
+2025-05-27 16:11:14,626 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_8.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_8.mp3
+2025-05-27 16:11:14,626 - INFO - Input file hash: 2804638283539bc7e2177965d3d673430fdd4a926164fed89aa7db67e6afcf0d
+2025-05-27 16:11:14,626 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_8.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_8.mp3
+2025-05-27 16:11:14,990 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_8.mp3
+2025-05-27 16:11:14,990 - INFO - Output file size: 0.83MB
+2025-05-27 16:11:14,990 - INFO - Processing file 9/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_9.mp4
+2025-05-27 16:11:14,990 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_9.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_9.mp3
+2025-05-27 16:11:14,990 - INFO - Input file hash: 861dab6ce3f3c14b3b6a81a578caa574cfbc6e4d9721b476889e92d7964c2661
+2025-05-27 16:11:14,990 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_9.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_9.mp3
+2025-05-27 16:11:15,306 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_9.mp3
+2025-05-27 16:11:15,309 - INFO - Output file size: 0.68MB
+2025-05-27 16:11:15,309 - INFO - Processing file 10/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_10.mp4
+2025-05-27 16:11:15,311 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_10.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_10.mp3
+2025-05-27 16:11:15,315 - INFO - Input file hash: 0d9f1eb0509a3fcaea5b90fe0bff4922256321d54d5acf08088796857abf268b
+2025-05-27 16:11:15,315 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_10.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_10.mp3
+2025-05-27 16:11:15,764 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_10.mp3
+2025-05-27 16:11:15,764 - INFO - Output file size: 1.08MB
+2025-05-27 16:11:15,764 - INFO - Processing file 11/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_11.mp4
+2025-05-27 16:11:15,767 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_11.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_11.mp3
+2025-05-27 16:11:15,769 - INFO - Input file hash: efab18635df33081cb0baa76fea3550417b0bb013299534dd99d7cf6e1d9796e
+2025-05-27 16:11:15,769 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_11.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_11.mp3
+2025-05-27 16:11:16,197 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_11.mp3
+2025-05-27 16:11:16,197 - INFO - Output file size: 1.05MB
+2025-05-27 16:11:16,197 - INFO - Processing file 12/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_12.mp4
+2025-05-27 16:11:16,197 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_12.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_12.mp3
+2025-05-27 16:11:16,203 - INFO - Input file hash: 297b819ff1521ee40bd3c7fddb8d279565f2bf2f0887df3c3718856f4e1607b8
+2025-05-27 16:11:16,204 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_12.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_12.mp3
+2025-05-27 16:11:16,598 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_12.mp3
+2025-05-27 16:11:16,598 - INFO - Output file size: 0.96MB
+2025-05-27 16:11:16,598 - INFO - Processing file 13/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_13.mp4
+2025-05-27 16:11:16,598 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_13.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_13.mp3
+2025-05-27 16:11:16,605 - INFO - Input file hash: d664e6330e15de08f35476c8d1ebc123f09c20dbbdec92479020568a12ab8df4
+2025-05-27 16:11:16,607 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_13.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_13.mp3
+2025-05-27 16:11:17,134 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_13.mp3
+2025-05-27 16:11:17,134 - INFO - Output file size: 1.38MB
+2025-05-27 16:11:17,134 - INFO - Processing file 14/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_14.mp4
+2025-05-27 16:11:17,134 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_14.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_14.mp3
+2025-05-27 16:11:17,140 - INFO - Input file hash: 3230abcd95c0bb4694385ea905566a4b155a080b8df6abf9a53729b8f3c3ef32
+2025-05-27 16:11:17,140 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_14.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_14.mp3
+2025-05-27 16:11:17,739 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_14.mp3
+2025-05-27 16:11:17,739 - INFO - Output file size: 1.61MB
+2025-05-27 16:11:17,739 - INFO - Processing file 15/15: C:/Users/lenovo/Downloads/BFSI_Call_Recording_Transcript_15.mp4
+2025-05-27 16:11:17,739 - INFO - Starting conversion: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_15.mp4 -> C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_15.mp3
+2025-05-27 16:11:17,756 - INFO - Input file hash: 4ce253bf246b147661e42b1a7fffc01346a3e98727feab00750ba386892292c1
+2025-05-27 16:11:17,756 - INFO - Executing: C:\ProgramData\chocolatey\bin\ffmpeg.EXE -i C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_15.mp4 ... C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_15.mp3
+2025-05-27 16:11:18,294 - INFO - Conversion successful: C:\Users\lenovo\Downloads\BFSI_Call_Recording_Transcript_15.mp3
+2025-05-27 16:11:18,294 - INFO - Output file size: 1.34MB
+2025-05-27 16:11:18,294 - INFO - Batch conversion complete: 15/15 files converted successfully

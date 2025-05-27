@@ -1,0 +1,23 @@
+# Requirements for the secure MP4 to MP3/WAV converter
+# Note: This script primarily uses built-in Python libraries
+# The main external dependency is FFmpeg (system-level installation required)
+
+# Core dependencies (built-in with Python)
+# - tkinter (usually included with Python on Windows)
+# - pathlib
+# - subprocess
+# - threading
+# - queue
+# - hashlib
+# - shutil
+
+# Web interface dependencies
+streamlit>=1.28.0
+
+# Optional: For enhanced security and validation
+pathvalidate>=2.5.2
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
